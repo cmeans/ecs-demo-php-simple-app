@@ -1,5 +1,5 @@
 # Use the official Nginx image from Docker Hub
-FROM nginx:latest
+FROM nginx:mainline-alpine3.18-perl
 
 # Remove the default nginx index page
 RUN rm /usr/share/nginx/html/index.html
