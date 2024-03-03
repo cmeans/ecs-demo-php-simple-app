@@ -1,5 +1,5 @@
 # Use the official Nginx image from Docker Hub
-FROM nginx:stable
+FROM nginx:latest
 
 # Remove the default nginx index page
 RUN rm /usr/share/nginx/html/index.html
